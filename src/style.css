@@ -1,0 +1,100 @@
+html{
+    min-height: 100%;
+    width:100%; 
+    height:100%;
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.wrap {
+    min-height: 100%;
+    height:auto !important;   
+    margin: 0 auto -50px;  /* Bottom value must = footer height */
+    padding: 0;
+}
+
+.footer, .push { width:100%; height:50px; position: relative;  }
+
+.footer{
+    display: none;
+    color: black;
+}
+
+.row{
+    display: inline-block;
+}
+
+img{
+    margin: 1rem;
+    transition: opacity .5s ease-in-out;
+    box-sizing: border-box;
+}
+
+
+.wow { 
+    visibility: hidden; 
+}
+
+.pic-container {
+    overflow: hidden;
+    display: none;
+}
+
+img:hover{
+    filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1024px) {
+    img{
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+#photography, #videography {
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px black solid;
+    border-radius: 2px;
+    width: 10rem;
+    height: 3rem;
+    animation-delay: .5s; 
+    margin: 3rem;
+    background-color: white;
+}
+
+
+
+  .placeholder-70 {
+    height: 70%;
+}
+.placeholder-60 {
+    height: 60%;
+}
+.placeholder-30 {
+    height: 30%;
+}
+.placeholder-20 {
+    height: 20%;
+}
+.placeholder-10 {
+    height: 10%;
+}
+.placeholder-45 {
+    height: 45%;
+}
